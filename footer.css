@@ -1,0 +1,280 @@
+.footer {
+    background-color: #3BC7ED; /* Dark background color */
+    color: #ffffff; /* Light text color */
+    padding: 3rem 0; /* Padding for top and bottom */
+}
+
+.footer-logo {
+    max-width: 150px; /* Adjust logo size */
+    margin-bottom: 1rem; /* Space below logo */
+}
+
+.subscribe-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe-form .form-control {
+    margin-bottom: 0.5rem;
+    border-radius: 0; /* Remove border radius for a cleaner look */
+}
+
+.subscribe-form .btn-primary {
+    background-color: #007bff; /* Primary button color */
+    border: none; /* Remove border */
+    border-radius: 0; /* Remove border radius */
+}
+
+.footer-title {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: #f8f9fa; /* Light text color */
+}
+
+.footer-links,
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li,
+.contact-info li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-links a,
+.contact-info a {
+    color: #ffffff; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.footer-links a:hover,
+.contact-info a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.footer-bottom {
+    background-color: #3BC7ED; /* Slightly lighter dark background */
+    padding: 1rem 0; /* Padding for top and bottom */
+    margin-top: 120px !important;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+.footer-bottom-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-bottom-links li {
+    display: inline;
+    margin-right: 1rem; /* Spacing between links */
+    margin-top: 120px !important;
+}
+
+.footer-bottom-links a {
+    color: #ffffff;
+    text-decoration: none; /* Remove underline */
+}
+
+.footer-bottom-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.designer-link {
+    color: #007bff; /* Highlight color for designer link */
+}
+
+.services_alignment{
+    margin-top: 85px !important;
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .footer-section .row {
+        flex-direction: column;
+    }
+    .footer-section .col-6 {
+        width: 100%;
+    }
+}
+
+/* Default style */
+.services_alignment {
+    margin-top: 5px !important;
+}
+
+/* Responsive styles for tablets and smaller devices */
+@media (max-width: 1024px) {
+    .services_alignment {
+        margin-top: 60px !important;
+    }
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 768px) {
+    .services_alignment {
+        margin-top: 10px !important;
+        padding-bottom: 190px;
+    }
+}
+
+/* Responsive styles for extra small devices */
+@media (max-width: 576px) {
+    .services_alignment {
+        margin-top: -90px !important;
+        padding-bottom: 190px;
+    }
+    }
+}
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .footer .row {
+        flex-direction: column;
+    }
+
+    .footer .col-6 {
+        width: 100%;
+    }
+
+    .footer .services_alignment {
+        margin-top: 20px !important; /* Adjust margin for smaller screens */
+    }
+
+    .footer .f-item.link .row {
+        flex-direction: column;
+    }
+
+    .footer .f-item.link .col-6 {
+        width: 100%;
+    }
+
+    .footer .f-item.link ul {
+        padding-left: 0;
+    }
+
+    .footer .f-item.link ul li {
+        margin-bottom: 0.5rem;
+    }
+}
+
+/* Custom CSS for dropdown icons and styling */
+.dropdown-menu li a {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px; /* Adjust padding as needed */
+    white-space: wrap; /* Prevent text from wrapping */
+}
+
+.dropdown-menu li a img.icon {
+    margin-right:5px; /* Adjust spacing as needed */
+    width: 24px; /* Adjust the size as needed */
+    height: 24px; /* Adjust the size as needed */
+}
+
+
+       /* Ensure the carousel container has consistent alignment */
+       .standard-services-carousel .item {
+        width: 100%;
+        max-width: 300px; /* Adjust as needed */
+        height: 400px; /* Adjust as needed */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    /* Style for the info section inside each item */
+    .standard-services-carousel .info {
+        text-align: center;
+        padding: 0px; /* Adjust as needed */
+        background: #fff; /* Adjust as needed */
+        border-radius: 10px; /* Optional for rounded corners */
+
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /* Ensure icons and text are properly spaced */
+    .standard-services-carousel .info i {
+        font-size: 36px; /* Adjust icon size as needed */
+        color: #3BC7ED; /* Adjust icon color as needed */
+        margin-bottom: 15px;
+    }
+
+    .standard-services-carousel .info h4 {
+        margin-bottom: 10px;
+    }
+
+    .standard-services-carousel .info p {
+        color: #666; /* Adjust text color as needed */
+    }
+
+    /* Optional: Center the carousel in the container */
+    .standard-services-carousel {
+        display: flex;
+        justify-content: center;
+    }
+/* Underline with transition effect and custom color */
+.navbar-nav .dropdown-menu li a {
+    text-decoration: none; /* Remove default underline */
+    position: relative;
+}
+
+.navbar-nav .dropdown-menu li a::after {
+    content: '';
+    position:absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #3bc7ed; /* Custom underline color */
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transition: transform 0.5s ease-out;
+}
+
+.navbar-nav .dropdown-menu li a:hover::after {
+    transform: scaleX(1);
+}
+
+
+.sliding_icon{
+    width: 30%;
+    margin-bottom: 12px;
+}
+
+.inner_icon{
+    background: #3BC7ED;
+    border-radius: 50%;
+     display: flex;
+     align-items: center;
+      justify-content: center;
+       width: 80px;
+        height: 80px;
+        margin-bottom: 10px;
+}
+
+/* .custom_icon{
+    width: 50%;
+    height: 50% !important;
+} */
+
+/* Remove any fixed width from the dropdown menu */
+.dropdown-menu.multi-column {
+    width: auto;
+    min-width: 250px; /* Set a minimum width if necessary */
+}
+
+/* Ensure items in the dropdown do not wrap */
+.multi-column-dropdown a {
+    white-space: nowrap !important;
+    margin-right: 13px;
+}
